@@ -1,0 +1,29 @@
+# ============================================
+# AWS IAM & S3 Security Lab - Ignore Rules
+# ============================================
+
+# Environment files - may contain secrets
+.env
+.env.*
+
+# AWS CLI credential/config directories
+.aws/
+
+# Credential/config files
+credentials
+
+# Private keys and certificates
+*.pem
+*.key
+
+# Terraform state - may contain sensitive data
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# macOS metadata
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
